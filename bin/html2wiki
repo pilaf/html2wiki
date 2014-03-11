@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "html2wiki"
+
+puts HTML2Wiki.convert(ARGF.read)
+
+# vim: set filetype=ruby
